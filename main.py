@@ -47,7 +47,8 @@ class MeuRPA:
 
     def exportar_contatos(self):
         self._abrir_contatos()
-
+        self._procurar_imagem(imagem='exportar.png')
+        self._procurar_imagem(imagem='confirmar_exportar.png')
 
 if __name__ == '__main__':
     controlador = MeuRPA()
